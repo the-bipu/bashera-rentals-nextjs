@@ -14,7 +14,7 @@ const Navbar = () => {
   };
   
   return (
-    <div className={`absolute top-0 z-40 w-full backdrop-blur h-[73px] flex items-center transition-colors duration-500 lg:z-50 border-b border-slate-900/10 bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent ${isActive ? 'active' : ''}`}>
+    <div className={`absolute top-0 z-40 w-full backdrop-blur h-[73px] flex items-center transition-colors duration-500 lg:z-50 border-b border-slate-900/10 supports-backdrop-blur:bg-white/60 bg-transparent ${isActive ? 'active' : ''}`}>
 
       <div className='w-[100vw] flex items-center justify-between lg:px-[80px] px-[30px]'>
             <div className='flex flex-row items-center justify-center gap-2 text-[25px]'>
