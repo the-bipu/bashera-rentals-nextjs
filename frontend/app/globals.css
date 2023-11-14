@@ -20,12 +20,12 @@
 
 body {
   color: #000;
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       #d5d5d5
     )
-  #d5d5d5;
+  #d5d5d5; */
 }
 
 * {
@@ -55,8 +55,9 @@ body {
 }
 
 #menu-btn a:hover,
-#main-nav a:hover {
-  color: green;
+#main-nav a:hover,
+#bars-nav:hover {
+  color: #3a6de4;
   text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transform: scale(1.1);
   transition: all .2s ease-in-out; 
