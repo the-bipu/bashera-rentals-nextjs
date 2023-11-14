@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import Home from '@/components/Home'
+import Home from '@/pages/Home'
 
 export default function Page() {
   return (
