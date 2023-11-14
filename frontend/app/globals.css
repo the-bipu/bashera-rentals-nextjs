@@ -69,3 +69,12 @@ body {
   flex-direction: column;
   gap: .5rem;
 }
+
+#home-head,
+#service-head {
+  background-image: url('/home-cover.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 380px;
+}
