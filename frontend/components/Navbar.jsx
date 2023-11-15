@@ -27,18 +27,18 @@ const Navbar = () => {
                 <div className="secNav">
                   <Link href="/">Home</Link>
                   <Link href="/Services">Services</Link>
-                  <Link href="/Gallery">Gallery</Link>
                   <Link href="/About">About</Link>
                   <Link href="/Contact">Contact</Link>
+                  <Link href="/Login">Login</Link>
                 </div>
             </div>
 
             <nav id='main-nav' className={`lg:flex hidden flex-row gap-[2rem] text-[20px]`}>
                 <Link href="/">Home</Link>
                 <Link href="/Services">Services</Link>
-                <Link href="/Gallery">Gallery</Link>
                 <Link href="/About">About</Link>
                 <Link href="/Contact">Contact</Link>
+                <Link href="/Login">Login</Link>
             </nav>
 
       </div>
