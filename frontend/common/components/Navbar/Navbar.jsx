@@ -19,17 +19,17 @@ const Navbar = () => {
       <div className='w-[100vw] flex items-center justify-between lg:px-[80px] px-[30px]'>
             <div className='flex flex-row items-center justify-center gap-2 text-[25px]'>
               <IoHome className='mb-1' /> 
-              <a href="/" className='text-[25px] font-bold text-black'> Bashera</a>
+              <a href="/" className='text-[25px] font-bold text-white'> Bashera</a>
             </div>
 
             <div id="menu-btn" onClick={toggleNavbar} className="text-[25px] cursor-pointer text-white lg:hidden block">
-              <FaBars id='bars-nav' className='w-[2rem] h-[2rem] text-black drop-shadow-lg' />
-                <div className="secNav">
-                  <Link href="/">Home</Link>
-                  <Link href="/Services">Services</Link>
-                  <Link href="/About">About</Link>
-                  <Link href="/Contact">Contact</Link>
-                  <Link href="/Login">Login</Link>
+              <FaBars id='bars-nav' className='w-[2rem] h-[2rem] text-white drop-shadow-lg' />
+                <div className="secNav text-white">
+                  <Link href="/" className='text-white'>Home</Link>
+                  <Link href="/Services" className='text-white'>Services</Link>
+                  <Link href="/About" className='text-white'>About</Link>
+                  <Link href="/Contact" className='text-white'>Contact</Link>
+                  <Link href="/Login" className='text-white'>Login</Link>
                 </div>
             </div>
 
