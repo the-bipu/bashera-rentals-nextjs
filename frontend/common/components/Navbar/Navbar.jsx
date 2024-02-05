@@ -37,7 +37,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 z-40 w-full h-auto flex items-center duration-500 ${isActive ? 'active' : ''} ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
+    <div className={`fixed top-0 z-40 w-full h-auto flex items-center duration-500 border-b-[1px] border-[#cbcbcb9b] ${isActive ? 'active' : ''} ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
 
       <div className={`w-[100vw] h-full flex items-center justify-between text-left lg:px-[80px] px-[20px] transition-all ${isScrolled ? 'py-[15px]' : 'py-[30px]'}`}>
         <div className='flex flex-row items-center justify-center gap-2 text-[22px]'>
