@@ -1,12 +1,22 @@
+.homeBG {
+  position: relative;
+  background: linear-gradient(#19365f67, #19365f94),
+    url("../../../public/home/main-bg-br.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
 #circle-div {
-    &:hover {
-        transition: all 0.3s ease-in-out 0s;
-        background: #fff;
+  &:hover {
+    transition: all 0.3s ease-in-out 0s;
+    background: #fff;
 
-        #logo-div {
-            color: #1967d2;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
+    #logo-div {
+      color: #1967d2;
+      transition: all 0.3s ease-in-out 0s;
     }
+  }
 }
