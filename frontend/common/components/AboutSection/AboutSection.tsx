@@ -3,7 +3,7 @@ import React from 'react'
 const AboutSection = () => {
     return (
         <div className='flex flex-col w-full h-auto bg-[#ffffff] p-16'>
-            <div className='text-center px-4 text-[1.4rem] mb-6'>Why Bashera !??</div>
+            <div className='text-center px-4 text-[1.4rem] mb-6'>Why Us !??</div>
 
             <div className='flex flex-row w-full h-auto gap-8 p-20 pb-8 pt-0'>
                 <div className='md:w-50% w-[90%] h-auto'>
