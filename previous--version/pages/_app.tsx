@@ -5,8 +5,7 @@ import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../app/globals.css'
 
-import Navbar from '@/common/components/Navbar/Navbar'
-import Footer from '@/common/components/Footer/Footer'
+import Navbar from '@/components/common/Navbar/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +19,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Navbar />
       <Component {...pageProps} />
-      <Footer />
     </>
   )
 }

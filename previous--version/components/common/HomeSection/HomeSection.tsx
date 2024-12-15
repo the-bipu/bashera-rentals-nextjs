@@ -5,7 +5,7 @@ import { IoMdSearch } from "react-icons/io";
 
 const HomeSection = () => {
     return (
-        <div className='w-full h-full flex flex-col items-center justify-center homeBG' >
+        <div className='w-full min-h-screen bg-[#1a1a1a] flex flex-col items-center justify-center' >
             <div className='text-white md:text-7xl text-3xl font-bold mb-8 mt-16 lufga'>Find Your Bashera Here</div>
 
             <div className='bg-white rounded-sm md:w-3/4 w-11/12 h-20 p-3 flex flex-row justify-between pl-8'>

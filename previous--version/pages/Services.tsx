@@ -1,4 +1,4 @@
-import NearbyLocation from '@/common/components/NearbyLocation/NearbyLocation'
+import NearbyLocation from '@/components/common/NearbyLocation/NearbyLocation'
 import React from 'react'
 
 export default function Services() {
