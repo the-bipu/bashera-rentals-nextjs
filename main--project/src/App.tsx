@@ -1,25 +1,27 @@
 import type { Component } from 'solid-js';
 
-import logo from './logo.svg';
-import styles from './App.module.css';
+import bashera from './assets/bashera.svg';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+    <div class='flex flex-col w-full min-h-screen items-center justify-start'>
+
+      {/* navbar here */}
+      <div class='flex flex-row items-center justify-between md:w-10/12 w-11/12 h-auto py-4'>
+        <img src={bashera} alt="logo" class='w-36' />
+        <div class='flex flex-row gap-2 capitalize text-base'>
+          <button class='px-3 py-1 transition-all hover:bg-[#d6d6d6] rounded'>Home</button>
+          <button class='px-3 py-1 transition-all hover:bg-[#d6d6d6] rounded'>Property</button>
+          <button class='px-3 py-1 transition-all hover:bg-[#d6d6d6] rounded'>Services</button>
+          <button class='px-3 py-1 transition-all hover:bg-[#d6d6d6] rounded'>About Us</button>
+        </div>
+        <button class='px-4 py-2 transition-all bg-foreground hover:bg-[#222] text-[#fff] rounded-md'>Contact us</button>
+      </div>
+
+      {/* content here */}
+      <div class='flex flex-col w-10/12 h-full mt-6'>
+        nothing here
+      </div>
     </div>
   );
 };
