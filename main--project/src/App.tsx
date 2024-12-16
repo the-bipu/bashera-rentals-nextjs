@@ -20,7 +20,9 @@ const App: Component = () => {
 
       {/* content here */}
       <div class='flex flex-col w-10/12 h-full mt-6'>
-        nothing here
+        <div class='rounded-3xl flex text-center w-full min-h-[36rem] items-center bg-anime'>
+          <div class='text-9xl font-bold text-[#ffffff8b]'>Discover Your Bashera Here!</div>
+        </div>
       </div>
     </div>
   );
