@@ -1,6 +1,5 @@
 import type { Component } from 'solid-js';
 
-import bashera from '../assets/bashera.svg';
 import Navbar from '@/components/Navbar';
 
 const Home: Component = () => {
