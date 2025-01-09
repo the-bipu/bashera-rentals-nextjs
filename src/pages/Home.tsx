@@ -75,9 +75,16 @@ const Home: Component = () => {
                     </div>
                 </div>
 
-                <div class='rounded-3xl flex md:flex-row flex-col text-center w-full min-h-[36rem] items-start bg-[#192939] relative p-10 mb-16'>
-                    <div class='md:w-1/2 w-full h-full'>hello</div>
-                    <div class='md:w-1/2 w-full h-full'>hello</div>
+                <div class='rounded-3xl flex md:flex-row flex-col gap-10 text-center w-full h-[36rem] items-start bg-[#192939] relative md:p-16 p-8 mb-16'>
+                    <div class='md:w-1/2 w-full h-full rounded-2xl p-3 bg-[#303E4D]'>
+                        <img src="/apna.jpg" alt="" class='w-full h-full object-cover rounded-2xl' />
+                    </div>
+                    <div class='md:w-1/2 w-full h-full flex flex-col items-start py-4'>
+                        <div class='px-6 py-1 rounded-full bg-[#303E4D] uppercase text-white mb-4'>Get Your Bashera</div>
+                        <div class='text-4xl font-semibold text-white capitalize mb-6'>Flexible Stay Options for Every Lifestyle</div>
+                        <div class='text-base font-normal text-white text-justify'>Whether you need a short-term rental or a long-term lease, we’ve got you covered. Discover spaces tailored to your unique preferences.</div>
+                        <hr class='h-0.5 w-full my-6' />
+                    </div>
                 </div>
             </div>
         </div>
