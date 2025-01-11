@@ -12,7 +12,7 @@ const Home: Component = () => {
             <div class='flex flex-col w-full px-6 h-full'>
 
                 <div class='rounded-3xl flex text-center w-full min-h-[36rem] items-start bg-anime relative p-10 mb-16'>
-                    <div class='text-6xl font-bold text-[#fff] top-8'>Discover Your Bashera Here!</div>
+                    <div class='text-6xl font-bold text-[#fff] backdrop-blur'>Discover Your Bashera Here!</div>
                     <div class='absolute -left-4 bottom-0 w-1/2 h-32 rounded-tr-3xl skew-x-[20deg] bg-[#F8F8F8]'>
                         <div class='-skew-x-[20deg] w-full h-full flex flex-col gap-4 px-10 py-5 items-start text-[#a0a0a0] font-medium text-base'>
                             <span>More than 100+ cities we're in</span>
